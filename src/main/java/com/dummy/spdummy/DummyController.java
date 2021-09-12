@@ -9,7 +9,7 @@ public class DummyController {
 	
 	@GetMapping("/hello-world")
 	public ResponseEntity<String> helloWorld() {
-		return ResponseEntity.ok("Hello world - Gourav");
+		return ResponseEntity.ok("Hello world - Gourav bro");
 	}
 
 }
